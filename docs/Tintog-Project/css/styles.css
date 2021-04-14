@@ -1,0 +1,105 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+
+
+/*------------------------ID-SELECTORS-------------------------*/
+/*first Section*/
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features{
+  padding-top: 7%;
+  padding-bottom:7%;
+  text-align: center;
+}
+
+/*------------------------CLASS-SELECTORS----------------------*/
+
+
+.container-fluid{
+  padding: 3% 15%;
+  overflow: hidden;
+
+}
+
+
+
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: lighter;
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Donwload Buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* title-image */
+
+.Dog-picture{
+  transform: rotate(25deg);
+  width:60%;
+  margin: 3em 5em -12em;
+}
+
+
+/* Features */
+
+.icon-in-features{
+color:#ef8172;
+padding: 5% 5%;
+}
+
+.icon-in-features:hover{
+  color: black;
+}
+
+
+.H3-in-features{
+  font-weight: bolder;
+  font-size: 1.5rem;
+
+}
+
+.p-in-features{
+  color: grey;
+  font-size: smaller;
+}
